@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa; /* Couleur de fond que vous avez actuellement */
+  background-color: #f8f9fa;
 }
 
 .container {
@@ -36,6 +36,13 @@ strong {
 
 p {
   color: #495057; /* Couleur du texte du paragraphe */
-  line-height: 1.6; /* Espacement des lignes pour une meilleure lisibilité */
+  line-height: 1.6; /* Espacement des lignes */
   margin-bottom: 10px;
+}
+
+/* Cacher le contenu textuel sur les petits écrans */
+@media (max-width: 767px) {
+  .content {
+    display: none;
+  }
 }
