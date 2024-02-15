@@ -34,7 +34,7 @@ strong {
   font-weight: bold;
 }
 
-p {
+p, ul {
   color: #495057; /* Couleur du texte du paragraphe */
   line-height: 1.6; /* Espacement des lignes */
   margin-bottom: 10px;
